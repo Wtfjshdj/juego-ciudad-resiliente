@@ -1,0 +1,17 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ph$^_DW5ZZC@xDt@2sm[">mySprite</variable><variable type="KIND_SpriteKind" id="958H/;wJOX$a/e}{O}|j">Player</variable><variable type="KIND_SpriteKind" id="=[aN=e;wLn$n9Mpg1!tH">Projectile</variable><variable type="KIND_SpriteKind" id="m%6y%1S.o_Z~$7NgB_)`">Food</variable><variable type="KIND_SpriteKind" id="[Ot0sTD9#%/@$OLMS5ql">Enemy</variable></variables><block type="pxt-on-start" id="G[Tq,2WsK}a4BQ#5AD27" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="jqDvIy`o/(_NM)EjN%Ax"><value name="img"><shadow type="background_image_picker" id="4c@DA@;n+kY:if?DNmK3"><field name="img">assets.image`cityscape`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><next><block type="variables_set" id="?8=SE:AKAfUy/q(.f0G-"><field name="VAR" id="ph$^_DW5ZZC@xDt@2sm[">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="ZIGjic[XKTmxcJ)f}1cG"><value name="img"><shadow type="screen_image_picker" id="]tZRf!3=v-yJtU0{wnH*"><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f e e e e f f . . . . 
+. . . f e e e f f e e e f . . . 
+. . f f f f f 2 2 f f f f f . . 
+. . f f e 2 d 2 2 d 2 e f f . . 
+. f f e 2 f 2 f f 2 f 2 e f f . 
+. f e 2 f f d d d d f f 2 e f . 
+. . f f d d d d d d d d f f . . 
+. . f d f f f f f f f f d f . . 
+. . f f f e e e e e e f f f . . 
+. . . . f e e e e e e f . . . . 
+. . . . e f f f f f f e . . . . 
+. . . . f f f . . f f f . . . . 
+. . f f f f . . . . f f f f . . 
+. . f f f . . . . . . f f f . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"]tZRf!3=v-yJtU0{wnH*"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="nUd8Mh{RYS0D?ksCMAA}"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
